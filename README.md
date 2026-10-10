@@ -8,7 +8,7 @@
 ## โหลด Library
 
 ```lua
-local BitUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/128bitUI.lua"))()
+local BitUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/4rise-Dev/128B-t-UI/refs/heads/main/128bitUI.lua"))()
 ```
 
 > แทน URL ด้วย raw link จาก GitHub ของแก
