@@ -11,7 +11,7 @@ local HttpService = game:GetService("HttpService")
 local LocalPlayer = Players.LocalPlayer
 
 local function LoadCustomImage(urlOrAsset, defaultAsset)
-    defaultAsset = defaultAsset or "rbxassetid://10709819149"
+    defaultAsset = defaultAsset or "rbxassetid://111408613812113"
     if not urlOrAsset or urlOrAsset == "" then return defaultAsset end
 
     local assetNum = urlOrAsset:match("%d+")
@@ -53,8 +53,8 @@ local BitUI = {
         WindowTransparency = 0,
         AcrylicEnabled = true,
         ShowFloatingToggle = true,
-        FloatIconId = "rbxassetid://10709819149",   -- icon บน floating button (ใส่ assetid ได้เลย)
-        FloatSize = 52,                              -- ขนาด floating button (px)
+        FloatIconId = "rbxassetid://111408613812113", 
+        FloatSize = 52,                            
         ControlsPosition = "Left",
         KeybindMode = "Toggle",
         ToggleKey = "RightControl",
@@ -66,7 +66,7 @@ local BitUI = {
         WallpaperDimming = 0.35,
         BackgroundEffect = "Floating Bubbles",
         CustomWallpaperId = "",
-        CustomLogoUrl = "https://raw.githubusercontent.com/nibamako08-code/xd/main/content.png"
+        CustomLogoUrl = "https://raw.githubusercontent.com/4rise-Dev/128bit-UI/main/128bit-logo.png"
     },
     Themes = {
         NeverloseCrimson = {
